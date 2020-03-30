@@ -7,4 +7,4 @@ app.get('/',(req:Request, res:Response, next:NextFunction)=>{
     console.log(add(5,5));
     res.send('Hello Rifat' );
 });
- app.listen(5000,()=>console.log('Server Running'));
+app.listen(5000,()=>console.log('Server Running'));
